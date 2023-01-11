@@ -1,0 +1,117 @@
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 10vh 5vw;
+
+}
+
+.head h1 {
+    font-size: 3.5rem;
+}
+
+.head p {
+    font-size: 1.5rem;
+    word-spacing: 1vw;
+    letter-spacing: .02vw;
+}
+
+.first-des {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 5vw;
+    gap: 5vw;
+    margin-bottom: 5vh;
+}
+
+.first-des-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 5vh 5vw;
+    gap: 5vw;
+    margin-bottom: 5vh;
+}
+
+.des-text {
+    flex: 2;
+}
+
+.des-text h2 {
+    font-size: 2rem;
+    margin-bottom: 4vh;
+    word-spacing: .5vw;
+}
+
+.des-text p {
+    word-spacing: 0.3vw;
+    letter-spacing: 0.02vw;
+}
+
+.des-img {
+    flex: 2;
+}
+
+.des-img img {
+    height: 50vh;
+}
+
+@media screen and (max-width: 900px) {
+
+    .head {
+        padding: 6vh 5vw;
+    }
+
+    .head h1 {
+        font-size: 2.5rem;
+    }
+
+    .head p {
+        font-size: 1rem;
+        word-spacing: 0.5vw;
+        letter-spacing: .02vw;
+    }
+
+    .first-des {
+        padding: 0 5vw;
+        flex-direction: column;
+    }
+
+    .first-des-reverse {
+        padding: 0 5vw;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .head {
+        padding: 5vh 5vw;
+    }
+
+    .head h1 {
+        font-size: 1.8rem;
+    }
+
+    .head p {
+        font-size: 0.8rem;
+    }
+
+    .first-des {
+        padding: 0 5vw;
+    }
+
+    .first-des-reverse {
+        padding: 0 5vw;
+    }
+
+    .des-text h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+    }
+
+    .des-text p {
+        word-spacing: 0.15vw;
+    }
+}
